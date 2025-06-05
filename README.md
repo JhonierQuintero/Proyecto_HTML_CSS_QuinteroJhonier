@@ -82,7 +82,7 @@ El proyecto para LuxTime consistió en el diseño y desarrollo de una maqueta HT
 ## Aspectos Técnicos
 - **HTML/CSS Nativo**: Todo el desarrollo se realizó sin librerías externas, utilizando CSS Grid y Flexbox para layouts, animaciones CSS para interacciones y transformaciones para efectos visuales.
 - **Optimización UI/UX**: Se emplearon colores, tipografías y espaciados coherentes con la identidad de LuxTime, asegurando una experiencia visual de lujo.
-- **Responsive Design**: @media queries aplicadas para breakpoints en 576px (móviles), 768px (tabletas) y 1200px (escritorio), garantizando accesibilidad y usabilidad.
+- **Responsive Design**: @media queries aplicadas para breakpoints en 760px (móviles), 1024px (tabletas) y 1200px (escritorio), garantizando accesibilidad y usabilidad.
 
 
 
