@@ -1,4 +1,4 @@
-## Landing para una relojeria
+<h1 align=center>Landing Para Una Relojería</h1>
 
 <p align="center">
   <img width="700" src="https://i.postimg.cc/XJB57s0x/foto-ejemplo-del-proyecto.png">
