@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: 'Playfair Display', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0a0a0a;
+    color: #eee;
+    overflow-x: hidden;
+    perspective: 1200px; 
+    background: url("https://img.freepik.com/vector-gratis/fondos-negros-degradados-marcos-dorados_23-2149150610.jpg?semt=ais_items_boosted&w=740") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.wrapper{
+    margin-top: 2.5rem;
+    width: 27rem;
+    background-color: transparent;
+    border: 0.125rem solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(0.94rem);
+    box-shadow: 0, 0, 0.625rem rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1.25rem 1.875rem;
+    
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 3.125rem;
+    position: relative;
+    margin: 1.875rem 0;
+}
+
+.wrapper h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem 2.9rem 1.25rem 1.25rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 0.125rem solid gold;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.input-box textarea{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem 1.25rem 6rem 1.25rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 0.125rem solid gold;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.input-box input::placeholder ,.input-box textarea::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position:absolute;
+    top: 50%;
+    right: 1.25rem;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 2.9rem;
+    border: none;
+    margin: 4rem 0 4rem 0;
+    outline: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: gold;
+    font-size: 1rem;
+    color: #f8f8f8;
+    transition: transform 0.3s ease-in-out;
+}
+
+.wrapper .btn:hover{
+    color: gold;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 35px 15px;
+    background: transparent;
+    font-size: 0.95rem;
+    color: #f8f8f8;
+    letter-spacing: 0.04em;
+    user-select: none;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    margin: 0 12px;
+    color: #ff4e91;
+    font-size: 1.8rem;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    filter: drop-shadow(0 0 4px gold);
+    will-change: transform, color;
+}
+
+.socials a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 0 4px gold);
+  will-change: transform, filter;
+}
+
+.socials a:hover {
+    transform: scale(1.5) rotate(-10deg);
+    color: #f8f8f8;
+    filter: drop-shadow(0 0 14px #f8f8f8);
+}
+
+@media (max-width: 768px) {
+    .wrapper h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .wrapper h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .wrapper h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+}
