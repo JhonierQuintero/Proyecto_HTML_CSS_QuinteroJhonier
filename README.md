@@ -1,7 +1,7 @@
 ## Landing para una relojeria
 
 <p align="center">
-  <img width="700" src="https://i.postimg.cc/1z7vNx2J/cine.jpg">
+  <img width="700" src="./assets/foto ejemplo del proyecto.png">
 </p>
 
 El proyecto para LuxTime consistió en el diseño y desarrollo de una maqueta HTML y CSS que simula el sitio web corporativo de la empresa, cumpliendo con todos los requerimientos especificados. La solución entrega una experiencia visualmente atractiva, navegable y responsive, con énfasis en la planificación detallada, diseño avanzado en CSS y componentes interactivos simulados, sin integración de lógica funcional ni backend. El desarrollo se realizó utilizando únicamente HTML y CSS nativos, sin librerías externas, garantizando una interfaz optimizada para UI/UX y adaptada a dispositivos móviles mediante @media queries.
